@@ -1,28 +1,68 @@
+@font-face {
+  font-family: "Bizud";
+  src: url(./font/bizud.ttf);
+}
+
 body {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;
-  width: 100vh;
-  border: none;
   padding: 0;
   margin: 0;
+  font-family: "Bizud", monospace;
+  width: 100vw;
+  height: 100vh;
 }
 
-.sidebar {
+.sidebar,
+.logo {
+  flex-flow: row wrap;
+  width: 31%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
   display: flex;
-  background-image: url(./images/fast.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: initial;
-  height: 100%;
-  min-width: 75%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20vh;
+  background-color: rgb(87, 241, 41, 0.7);
+  height: 300px;
 }
 
-.mainform {
+.sidebarimage {
+  display: flex;
+  flex: 1;
+  max-height: 100%;
+}
+
+.header {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  word-wrap: break-word;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  max-width: 400px;
+}
+.mainform {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  background-color: black;
+  color: rgb(87, 241, 41);
+  text-align: justify;
+  margin: 20px, 20px;
+}
+
+.formdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(87, 241, 41);
+  max-width: 500px;
+  height: 80%;
 }
