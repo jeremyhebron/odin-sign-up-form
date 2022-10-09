@@ -9,7 +9,6 @@
   </head>
   <body>
     <div class="sidebar">
-      <img class="sidebarimage" src="./images/nexus.jpg" />
       <div class="logo">
         <img class="imgclass" src="./images/emaily.png" alt="email logo" />
         <img src="./images/sky.gif" alt="sky gif" />
@@ -26,22 +25,25 @@
         <div class="formdiv">
           <div class="header">
             <h2>
-              Email is a connective tissue in the world of the internet. One of
-              those things that never loses its luster and always stays in
-              vogue. Please provide us with your email! We're not sure what
-              we're going to do with it yet but we know that email is undeniably
-              important.
+              It's almost unbelievable how much the world has changed with the
+              advent of the internet. The internet is kind of like the
+              connective tissue of our current society. The cave men had their
+              fires and we have our emails. This is the start of your
+              death-scroll journey.
             </h2>
-            <h3>Fill out this form to add your email to our list</h3>
+            <h3>
+              Make an account below and start using the internet like a real
+              21st century man.
+            </h3>
           </div>
           <div class="signupform">
             <form action="">
               <p>
-                <label for="first-name">First Name</label>
+                <label for="firstname">First Name</label>
                 <input
                   type="text"
-                  id="first-name"
-                  name="first-name"
+                  id="firstname"
+                  name="firstname"
                   placeholder="Jimmy"
                   required
                 />
@@ -50,8 +52,8 @@
                 <label for="last-name">Last Name</label>
                 <input
                   type="text"
-                  id="last-name"
-                  name="last-name"
+                  id="lastname"
+                  name="lastname"
                   placeholder="John"
                 />
               </p>
@@ -65,34 +67,34 @@
                 />
               </p>
               <p>
-                <label for="phone-number">Phone Number</label>
-                <input
-                  type="tel"
-                  id="phone-number"
-                  placeholder="666-420-1337"
-                />
+                <label for="phonenumber">Phone Number</label>
+                <input type="tel" id="phonenumber" placeholder="666-420-1337" />
               </p>
               <p>
                 <label for="password">Password</label>
                 <input
                   type="password"
+                  id="password"
                   pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                  placeholder=" "
                   required
                 />
               </p>
               <p>
-                <label for="confirm-password">Confirm Password</label>
+                <label for="confirmpassword">Confirm Password</label>
                 <input
                   type="password"
+                  id="confirmpassword"
                   pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                  placeholder=" "
                   required
                 />
               </p>
+              <div class="footer">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a>Log in</a></p>
+              </div>
             </form>
-          </div>
-          <div class="footer">
-            <button>Create Account</button>
-            <p>Already have an account? <a>Log in</a></p>
           </div>
         </div>
       </div>
