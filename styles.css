@@ -163,6 +163,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
     display: flex;
     position: relative;
     top: 60px;
+    height: auto;
   }
 
   .formdiv {
@@ -171,6 +172,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
   }
 
   form {
+    -webkit-appearance: none;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -182,9 +184,9 @@ input:not(:focus):not(:placeholder-shown):invalid {
     justify-content: center;
     align-items: center;
   }
-}
 
-.footer {
-  display: flex;
-  margin: 0;
+  .footer {
+    display: flex;
+    margin: 0;
+  }
 }
