@@ -142,3 +142,45 @@ input:focus::placeholder {
 input:not(:focus):not(:placeholder-shown):invalid {
   border-color: red;
 }
+
+@media only screen and (max-width: 600px)  {
+  body {
+      flex-flow: column;
+      height: auto;
+      text-align: center;
+      background-color: black;
+  }
+  .sidebar{
+      width: 100vw;
+      height: 30vh;
+      display: flex;
+      background-size: 100vw;
+      padding-bottom: 200px;
+    
+      
+  }
+
+  .logo {
+    display: flex;
+    position: relative;
+    top: 60px;
+    height:600px;
+  }
+
+  .formdiv {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  form{
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  
+  input{
+    text-align: left;
+    width: 10em;
+    font-size: 0.9em;
+    justify-content: center;
+    align-items: center;
+  }
