@@ -147,6 +147,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
   body {
     flex-flow: column;
     height: auto;
+    width: auto;
     text-align: center;
     background-color: black;
   }
@@ -173,6 +174,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
   form {
     flex-flow: column nowrap;
     align-items: center;
+    -webkit-appearance: none;
   }
 
   input {
