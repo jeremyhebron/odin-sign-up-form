@@ -163,7 +163,6 @@ input:not(:focus):not(:placeholder-shown):invalid {
     display: flex;
     position: relative;
     top: 60px;
-    height: 600px;
   }
 
   .formdiv {
@@ -172,16 +171,20 @@ input:not(:focus):not(:placeholder-shown):invalid {
   }
 
   form {
-    flex-flow: column nowrap;
-    align-items: center;
-    -webkit-appearance: none;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   input {
     text-align: left;
-    width: 10em;
+    width: 16em;
     font-size: 0.9em;
     justify-content: center;
     align-items: center;
   }
+}
+
+.footer {
+  display: flex;
+  margin: 0;
 }
